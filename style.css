@@ -96,6 +96,15 @@
     background-color: transparent;
     margin-left: 35px;
   }
+  .email {
+    font-size: 20px;
+    color: lightgrey;
+    padding-top: 10px;
+}
+  .fa-vcard:before, .fa-address-card:before {
+    content: "\f2bb";
+    color: lightgrey;
+}
 
 
 #a{
