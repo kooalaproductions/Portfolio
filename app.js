@@ -30,11 +30,14 @@ $("a").on('click', function(event) {
 // }
 if(screen.width>1024){
   $(".navbar-2").hide();
-  $(".cards-container").css("flex-direction","column");
+  // $(".cards-container").css("flex-direction","column");
 
 
 }
-else{
+if(screen.width<900){
   $(".navbar-2").show();
   $(".navbar-2, a").show();
+  $(".cards-container").css("flex-direction","column");
+  console.log("here");
+$("cards-container").hide();
 }

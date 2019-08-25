@@ -82,13 +82,18 @@
   .main{
     margin-top:0px;
   }
-  .cards-container {
+  
+}
+@media screen and (max-width: 1024px){
+  .cards-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
+  }
+  
+
 }
-}
+
 .navbar-2{
   overflow: hidden;
     background-color: #333;
