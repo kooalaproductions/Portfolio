@@ -2,6 +2,8 @@
 
 .main {
     margin-top: 30px;
+    
+    
   }
   .name {
     margin-top: 25px;
@@ -11,6 +13,22 @@
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
+    background-size: 1px;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+    
+}
+.dog{
+  margin-top: 25px;
+    font-size: 50px;
+    text-align: center;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s; /* Firefox */
+    -webkit-animation: fadein 5s; /* Safari and Chrome */
+    -o-animation: fadein 5s; /* Opera */
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+
 }
 @keyframes fadein {
     from {
@@ -109,7 +127,10 @@
 
 #a{
   height: 100vh; 
-  background-color: Red;
+  background-image: url("yoda.jpg");
+  background-size: 50%
+  
+  
 }
 .info-container{
     padding:50px;
@@ -121,6 +142,10 @@
 #b{
   height: 100vh; 
   background-color: blue;
+}
+.project-title{
+  text-align: center;
+  padding-top: 5%;
 }
 
 #c{
