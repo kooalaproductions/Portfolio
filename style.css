@@ -127,7 +127,7 @@
 
 #a{
   height: 100vh; 
-  background-image: url("y.jpg");
+  background-image: url("images/y.jpg");
   background-size: cover;
   overflow: scroll;
   
@@ -145,7 +145,7 @@
 #b{
   height: 100vh; 
   background-color: blue;
-  background-image: url("in.jpg");
+  background-image: url("images/in.jpg");
   background-size: cover;
   overflow: scroll;
 
@@ -161,7 +161,7 @@
 #c{
   height: 100vh; 
   background-color: yellow;
-  background-image: url("beach.jpg");
+  background-image: url("images/beach.jpg");
   background-size: cover;
   overflow: scroll;
 
