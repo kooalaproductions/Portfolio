@@ -3,6 +3,47 @@
 .main {
     margin-top: 30px;
   }
+  .name {
+    margin-top: 25px;
+    font-size: 50px;
+    text-align: center;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 
 .navbar {
@@ -25,9 +66,18 @@
   }
   
   .navbar a:hover {
-    background: #ddd;
+    background: rgb(183, 226, 240);
     color: black;
   }
+
+  .fa-github:before {
+    content: "\f09b";
+    color: lightgray;
+}
+.fa-linkedin-square:before {
+  content: "\f08c";
+  color: lightgrey;
+}
 
   .cards-container {
     display: flex;
@@ -55,9 +105,9 @@
 .info-container{
     padding:50px;
 }
-.name{
+/* .name{
     text-align: center;
-}
+} */
 
 #b{
   height: 100vh; 
