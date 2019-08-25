@@ -127,8 +127,11 @@
 
 #a{
   height: 100vh; 
-  background-image: url("yoda.jpg");
-  background-size: 50%
+  background-image: url("y.jpg");
+  background-size: cover;
+  overflow: scroll;
+  
+  
   
   
 }
@@ -142,14 +145,29 @@
 #b{
   height: 100vh; 
   background-color: blue;
+  background-image: url("in.jpg");
+  background-size: cover;
+  overflow: scroll;
+
 }
 .project-title{
   text-align: center;
   padding-top: 5%;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+
 }
 
 #c{
   height: 100vh; 
   background-color: yellow;
+  background-image: url("beach.jpg");
+  background-size: cover;
+  overflow: scroll;
+
+}
+form{
+  color:white;
+  text-align: 
 }
 
