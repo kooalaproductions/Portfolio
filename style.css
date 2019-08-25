@@ -1,0 +1,72 @@
+/* Latest compiled and minified CSS included as External Resource*/
+
+
+.main {
+    margin-top: 30px;
+  }
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    justify-content: left;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .card{
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+  .card-img-top {
+    padding: 10px;
+}
+  a{
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 35px;
+  }
+
+
+#a{
+  height: 100vh; 
+  background-color: Red;
+}
+.info-container{
+    padding:50px;
+}
+.name{
+    text-align: center;
+}
+
+#b{
+  height: 100vh; 
+  background-color: blue;
+}
+
+#c{
+  height: 100vh; 
+  background-color: yellow;
+}
+
