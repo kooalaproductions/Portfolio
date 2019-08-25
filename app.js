@@ -20,3 +20,21 @@ $("a").on('click', function(event) {
       });
     } // End if
   });
+
+//   if ((screen.width<600)) {
+//     // if screen size is 1025px wide or larger
+//     // $(".navbar-2").css('display', 'block'); // you can also use $(".yourClass").hide();
+//     $(".navbar-2").show()
+//     $(".cards-container").css("flex-direction","column");
+//     console.log("here");
+// }
+if(screen.width>1024){
+  $(".navbar-2").hide();
+  $(".cards-container").css("flex-direction","column");
+
+
+}
+else{
+  $(".navbar-2").show();
+  $(".navbar-2, a").show();
+}

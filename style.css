@@ -63,6 +63,54 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+  .navbar {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+  #a{
+    top:0;
+    background-color: black;
+  }
+  /* .navbar-2{
+    display: block;
+  } */
+  .main{
+    margin-top:0px;
+  }
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+}
+.navbar-2{
+  overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    justify-content: left;
+}
+.navbar-2 a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar-2 a:hover {
+  background: rgb(183, 226, 240);
+  color: black;
+}
 
 .navbar {
     overflow: hidden;
