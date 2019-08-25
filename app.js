@@ -1,21 +1,3 @@
-// $(function() {
-// 	$('ul.nav a').bind('click',function(event){
-//     event.preventDefault();
-// 		var $anchor = $(this);
-//     console.log($anchor.attr('href'))
-// 		$('html, body').stop().animate({
-// 			scrollTop: $($anchor.attr('href')).offset().top
-// 		}, 1000);
-// 		event.preventDefault();
-// 	});
-// });
-// $(".navbar a").click(function(event) {
-//     event.preventDefault();
-
-//     $('html, body').animate({
-//         scrollTop: $("#elementtoScrollToID").offset().top
-//     }, 2000);
-// });
 
 $("a").on('click', function(event) {
 
